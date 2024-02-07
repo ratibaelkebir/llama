@@ -5,7 +5,7 @@
 
 set -e
 
-read -p "Enter the URL from email: " PRESIGNED_URL
+read -p "Enter the URL from email: https://download.llamameta.net/*?Policy=eyJTdGF0ZW1lbnQiOlt7InVuaXF1ZV9oYXNoIjoia29xajQ0M28zanRtb2ZhZzJldzBpeDZ4IiwiUmVzb3VyY2UiOiJodHRwczpcL1wvZG93bmxvYWQubGxhbWFtZXRhLm5ldFwvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcwNzQzMjc1Nn19fV19&Signature=hCeeEj9UOhVjuPe5ErBDrzzNvq-vvD86UceReDkHd-AkUyDX9nfFSF21iG4sT%7ExmdQvMZjMQ7mCiRO47xN-0LMM9GbxQpKaBC0p6WsUiX6oRlBngfYpWX3C17JcdvQMKSb1ChLmIR-xazios6PB%7EIxoeoj60zRRnw%7E62nB3MwoSGqYtCoE9AU7MttC8Yg-itQ6aNjlbx8i6KuNMg9QrfIDsFgn2hznAHx6t-PaxcVAhD9BGqwXiOWXD5fSfBrzhaWXL80Cb%7ESx7ID%7EPqF1-Wat31HkXicLKTqQGrlDcfHeVxreJvmdAhfv%7EZoyUiWvx5m0QsV6z21drGVKZsxakx3g__&Key-Pair-Id=K15QRJLYKIFSLZ&Download-Request-ID=1074611510531647
 echo ""
 read -p "Enter the list of models to download without spaces (7B,13B,70B,7B-chat,13B-chat,70B-chat), or press Enter for all: " MODEL_SIZE
 TARGET_FOLDER="."             # where all files should end up
